@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#087e8b" />
+  <title>HealthSphere | Connecting Care. Saving Lives.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="toast" class="toast" role="status"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="HealthSphere home"><span class="brand-mark">✚</span><span>Health<span>Sphere</span><small>CONNECTING CARE. SAVING LIVES.</small></span></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
+      <button class="btn btn-outline btn-small" data-action="open-auth">Login</button>
+      <button class="btn btn-primary btn-small" data-action="open-auth" data-mode="register">Get Started</button>
+    </nav>
+  </header>
+
+  <main id="publicView">
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="pulse"></span> HEALTHCARE, CONNECTED</span>
+        <h1>Care that connects.<br><em>When it matters most.</em></h1>
+        <p>One trusted place to coordinate hospital care, health checkups, emergency support and everyday assistance.</p>
+        <div class="hero-actions"><button class="btn btn-primary" data-action="open-auth" data-mode="register">Get Started <span>→</span></button><a class="btn btn-light" href="#services">Explore Services</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><b>H</b><b>+</b><b>♥</b></div><span><strong>One connected care network</strong><small>Patients · Hospitals · Helpers</small></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image"></div>
+        <div class="floating-card card-urgent"><span class="float-icon">✚</span><span><b>Care, coordinated</b><small>Support at every step</small></span><i>✓</i></div>
+        <div class="floating-card card-trust"><span class="trust-icon">♡</span><span><b>People-first care</b><small>Support when you need it</small></span></div>
+      </div>
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+    </section>
+
+    <section class="trust-strip"><div><strong>01</strong><span>Patient-first</span></div><div><strong>02</strong><span>Hospital-connected</span></div><div><strong>03</strong><span>Helper-supported</span></div><div><strong>04</strong><span>One simple platform</span></div></section>
+
+    <section class="section" id="about">
+      <div class="section-heading"><span class="eyebrow">WHY HEALTHSPHERE</span><h2>Healthcare feels easier<br>when everything connects.</h2><p>We bring the people and services around a patient's care journey into one organised experience.</p></div>
+      <div class="three-grid">
+        <article class="feature-card"><div class="feature-icon blue">♡</div><h3>For patients</h3><p>Find care, book appointments, request support and keep important details together.</p><span class="card-number">01 / PATIENT</span></article>
+        <article class="feature-card"><div class="feature-icon teal">⌂</div><h3>For hospitals</h3><p>Manage appointments, doctors, service requests and bed availability in one place.</p><span class="card-number">02 / HOSPITAL</span></article>
+        <article class="feature-card"><div class="feature-icon green">✦</div><h3>For helpers</h3><p>Discover care tasks, coordinate assistance and track completed work and earnings.</p><span class="card-number">03 / HELPER</span></article>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading"><span class="eyebrow">OUR SERVICES</span><h2>Support for every step<br>of your health journey.</h2><p>Explore five connected services designed around real-life healthcare needs.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon red">✚</div><h3>Emergency</h3><p>Ambulance coordination, nearby hospitals and urgent assistance requests.</p><button data-action="open-auth" class="text-link">Explore service →</button></article>
+        <article class="service-card"><div class="service-icon blue">＋</div><h3>Regular checkups</h3><p>Find doctors, choose a time slot and manage appointments.</p><button data-action="open-auth" class="text-link">Explore service →</button></article>
+        <article class="service-card"><div class="service-icon teal">⌕</div><h3>Health checkups</h3><p>Compare screening packages and choose lab or home collection.</p><button data-action="open-auth" class="text-link">Explore service →</button></article>
+        <article class="service-card"><div class="service-icon orange">♡</div><h3>Donations</h3><p>Learn about blood and organ donation and register your interest.</p><button data-action="open-auth" class="text-link">Explore service →</button></article>
+        <article class="service-card"><div class="service-icon green">♧</div><h3>Elder care</h3><p>Arrange medicine pickup, transport and daily assistance.</p><button data-action="open-auth" class="text-link">Explore service →</button></article>
+      </div>
+    </section>
+
+    <section class="companion-band"><div><span class="eyebrow">A LITTLE MORE SUPPORT</span><h2>Meet your AI Health Companion.</h2><p>Get general health information, reminders and help finding the right service. It is a demo assistant, not a doctor.</p><button class="btn btn-light" data-action="open-auth" data-mode="register">Try the companion →</button></div><div class="chat-preview"><div class="chat-top"><span class="online-dot"></span> HealthSphere Companion <small>DEMO</small></div><p class="chat-bubble">Hello! I can help you explore services and general health information. How can I help today?</p><div class="chat-input-preview">Ask a general health question… <span>➤</span></div></div></section>
+
+    <section class="section testimonials"><div class="section-heading"><span class="eyebrow">BUILT AROUND PEOPLE</span><h2>Care should feel<br>connected and human.</h2></div><div class="quote-grid"><blockquote>“A single place to organise appointments and support can make a stressful day feel more manageable.”<cite>— Patient experience vision</cite></blockquote><blockquote>“Clear requests and task updates help care teams coordinate with confidence.”<cite>— Care coordination vision</cite></blockquote></div></section>
+    <section class="contact-section" id="contact"><div><span class="eyebrow">GET IN TOUCH</span><h2>Let's make care<br>more connected.</h2><p>Have a question about the HealthSphere demo?</p></div><div class="contact-card"><b>HealthSphere – Healthcare Connect</b><span>✉ hello@healthsphere.demo</span><span>☎ Demo support: +91 00000 00000</span><small>Sample contact details for this local demonstration.</small></div></section>
+  </main>
+
+  <main id="appView" class="app-shell hidden">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand side-brand" href="#dashboard"><span class="brand-mark">✚</span><span>Health<span>Sphere</span><small>CARE CONNECT</small></span></a>
+      <div class="side-user"><div class="user-avatar" id="sideAvatar">U</div><div><b id="sideName">User</b><small id="sideRole">Patient</small></div></div>
+      <div class="side-label">WORKSPACE</div>
+      <nav id="sideNav"></nav>
+      <div class="sidebar-bottom"><div class="help-mini"><span>✦</span><b>Need a hand?</b><small>Visit the help centre</small></div><button class="side-link" data-action="logout">↪ <span>Log out</span></button></div>
+    </aside>
+    <section class="workspace">
+      <header class="app-header"><button class="mobile-menu app-menu" id="sideToggle">☰</button><div><span class="eyebrow" id="pageEyebrow">OVERVIEW</span><h1 id="pageTitle">Dashboard</h1></div><div class="header-actions"><button class="icon-btn" data-action="notifications" aria-label="Notifications">♧<i></i></button><div class="header-user"><div class="user-avatar small-avatar" id="headerAvatar">U</div><span id="headerName">User</span></div></div></header>
+      <div id="pageContent" class="page-content"></div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop hidden" id="authModal">
+    <section class="modal auth-modal">
+      <button class="modal-close" data-action="close-modal">×</button>
+      <div class="auth-side"><div class="brand"><span class="brand-mark">✚</span><span>Health<span>Sphere</span></span></div><span class="eyebrow">CARE, CONNECTED</span><h2>Your healthcare journey, in one place.</h2><p>Sign in to coordinate care, services and support.</p><div class="auth-illustration">✚</div></div>
+      <div class="auth-form-wrap"><div class="auth-tabs"><button class="active" data-action="auth-tab" data-tab="login">Login</button><button data-action="auth-tab" data-tab="register">Create account</button></div>
+        <form id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authSub">Enter your details to access your workspace.</p>
+          <div id="registerFields" class="hidden">
+            <label>Full name<input name="name" autocomplete="name" placeholder="Your full name" /></label>
+            <label>Mobile number<input name="mobile" inputmode="tel" placeholder="10-digit mobile number" /></label>
+            <label>I am registering as<select name="role"><option value="patient">Patient</option><option value="hospital">Hospital</option><option value="helper">Helper</option></select></label>
+            <label id="orgLabel" class="hidden">Hospital / organisation name<input name="organisation" placeholder="Organisation name" /></label>
+            <label>Confirm password<input name="confirm" type="password" placeholder="Re-enter password" /></label>
+          </div>
+          <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
+          <label>Password<div class="password-wrap"><input name="password" id="passwordField" type="password" required minlength="6" placeholder="At least 6 characters" /><button type="button" data-action="toggle-password">Show</button></div></label>
+          <button class="btn btn-primary full-btn" id="authSubmit" type="submit">Login →</button>
+          <button class="forgot-link" type="button" data-action="forgot">Forgot password?</button>
+          <p class="demo-note">Demo mode: register a profile or use the sample accounts listed below.</p>
+          <div class="sample-logins"><button type="button" data-action="sample-login" data-role="patient">Patient demo</button><button type="button" data-action="sample-login" data-role="helper">Helper demo</button><button type="button" data-action="sample-login" data-role="hospital">Hospital demo</button></div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop hidden" id="genericModal"><section class="modal generic-modal"><button class="modal-close" data-action="close-modal">×</button><div id="genericModalContent"></div></section></div>
+  <script src="js/data.js"></script><script src="js/app.js"></script>
+</body>
+</html>
